@@ -2,12 +2,13 @@ body{
     background-color: blue;
 }
 
-#scoreArea {
+.scoreArea {
     font-family: Pangolin;
     font-size: 3em;
     text-align: center;
 }
 
-#catPic img{
+.catPic img{
     max-width: 700px;
+    max-height: 394px;
     }
