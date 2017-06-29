@@ -1,1 +1,13 @@
-Hello, world
+body{
+    background-color: blue;
+}
+
+#score {
+    font-family: Pangolin;
+    font-size: 3em;
+    text-align: center;
+}
+
+#catPic img{
+    max-width: 700px;
+    }
