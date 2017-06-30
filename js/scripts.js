@@ -4,19 +4,13 @@ console.log("App initialized. Good to go.");
 var catName1 = "Tiddles";
 var catName2 = "Fluffy";
 
-$('#catName1').text(catName1);
-$('#catName2').text(catName2);
-
+$('#catName1').html("<h2>Cat: "+catName1+"</h2>");
 
 $('#catPic1').click(function(e) {
   score1++;
-  $('#score1').text(score1);
+  $('#output').text("Now you've clicked this cat "+score1+" times.");
 });
 
-$('#catPic2').click(function(e) {
-  score2++;
-  $('#score2').text(score2);
-});
 
 function htmlbodyHeightUpdate(){
     var height3 = $( window ).height()

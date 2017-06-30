@@ -1,20 +1,18 @@
-body{
-    background-color: blue;
+body, html{
+    height: 100%;
     font-family: 'Lato', sans-serif;
 }
 
 .scoreArea {
-    font-size: 3em;
     text-align: center;
 }
 
 .catPic img{
-    max-width: 700px;
-    max-height: 394px;
+    /*max-width: 700px;
+    max-height: 394px;*/
+    max-width: 100%;
     }
-    body,html{
-		height: 100%;
-	}
+
 
 	/* remove outer padding */
 	.main .row{
