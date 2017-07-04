@@ -1,29 +1,27 @@
 var catData = {
-    "cat1": {
-        "name": "Tiddles",
-        "clickCount": 0
-    },
-    "cat2": {
+    cats:[
+        {
+        name: "Tiddles",
+        clickCount: 0,
+        imgsrc:""},
+        {
         "name": "Fluffy",
-        "clickCount": 0
-    },
-    "cat3": {
+        "clickCount": 0,
+        "imgsrc":""},
+        {
         "name": "Mouser",
-        "clickCount": 0
-    },
-    "cat4": {
+        "clickCount": 0,
+        "imgsrc":""},
+        {
         "name": "Napoleon",
-        "clickCount": 0
-    },
-    "cat5": {
+        "clickCount": 0,
+        "imgsrc":""},
+        {
         "name": "Osiris",
-        "clickCount": 0
-    },
+        "clickCount": 0,
+        "imgsrc":""},
+    ]
 };
-
-var listView = [
-
-];
 
 var detailView = [
 
