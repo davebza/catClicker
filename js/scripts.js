@@ -3,27 +3,27 @@ var catData = {
         {
             name: "Tiddles",
             clickCount: 0,
-            imgsrc:""
+            imgsrc:"tiddles.jpg"
         },
         {
             name: "Fluffy",
             clickCount: 0,
-            imgsrc:""
+            imgsrc:"fluffy.jpg"
         },
         {
             name: "Mouser",
             clickCount: 0,
-            imgsrc:""
+            imgsrc:"mouser.jpg"
         },
         {
             name: "Napoleon",
             clickCount: 0,
-            imgsrc:""
+            imgsrc:"napoleon.jpg"
         },
         {
             name: "Osiris",
             clickCount: 0,
-            imgsrc:""
+            imgsrc:"osiris.jpg"
         },
     ]
 };
