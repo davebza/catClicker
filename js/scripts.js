@@ -38,8 +38,10 @@ var detailView = {
     listMaker: function(){
         var catList = controller.getCats();
         for (var i = 0; i < catList.length; i++){
-            $('#catList').append('<li>'+catList[i].name+'</li>');
+            $('#catList').append('<li id="'+catList[i].name+'">'+catList[i].name+'</li>');
         }
     }
 
 };
+
+detailView.listMaker();

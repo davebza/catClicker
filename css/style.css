@@ -13,6 +13,14 @@ body, html{
     max-width: 80%;
     }
 
+#catList {
+    margin-left: 10px;
+}
+
+#catList :hover {
+    background-color: #66B9Bf;
+}
+
 
 	/* remove outer padding */
 	.main .row{
